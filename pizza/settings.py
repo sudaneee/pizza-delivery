@@ -1,6 +1,6 @@
 
 from pathlib import Path
-from tkinter import Y
+
 from decouple import config
 from datetime import timedelta
 import dj_database_url
