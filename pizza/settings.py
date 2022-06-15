@@ -105,7 +105,7 @@ WSGI_APPLICATION = 'pizza.wsgi.application'
 
 DATABASES = {}
 
-if DEBUG:
+if not DEBUG:
 
         DATABASES['default'] = {
             'ENGINE': 'django.db.backends.sqlite3',
